@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automotriz Ranhet</title>
+    <!-- Fuentes desde Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <!-- Archivo CSS externo -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Encabezado / Menú -->
+    <header>
+        <a href="index.html" class="logo">
+            <span class="logo-main">AUTOMOTRIZ</span>
+            <span class="logo-sub">RANHET</span>
+        </a>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="index.html#contacto">Contacto</a></li>
+                <li>
+                    <a href="https://wa.me/+56927185488?text=Hola,%20quisiera%20hablar%20con%20un%20asesor" 
+                       class="btn-header" 
+                       target="_blank" 
+                       rel="noopener noreferrer">
+                       HÁBLANOS
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección Principal (Hero) -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        
+        <div class="hero-content">
+            <span class="hero-tag">CON AUTOMOTRIZ RANHET</span>
+            <h1 class="hero-title">VENDE TU AUTO<br>RÁPIDO, FÁCIL Y SEGURO</h1>
+                <a href="https://wa.me/+56927185488?text=Hola,%20me%20interesa%20vender%20mi%20auto" 
+                class="btn-hero" 
+               target="_blank" 
+               rel="noopener noreferrer">
+               HÁBLANOS
+            </a>
+        </div>
+    </section>
+
+    <!-- Sección: ¿Qué es Automotriz Ranhet? -->
+    <section class="about-section">
+        <div class="about-container">
+            
+            <!-- Columna Izquierda: Información -->
+            <div class="about-text">
+                <span class="about-tag">AUTOMOTRIZ RANHET</span>
+                <h2 class="about-title">¿QUÉ ES AUTOMOTRIZ RANHET?</h2>
+                <p class="about-subtitle">Un servicio pensado para hacerte la vida más fácil</p>
+                <p class="about-description">
+                    Automotriz Ranhet es una empresa dedicada a brindar soluciones rápidas y transparentes en la compra y venta de vehículos. Nos especializamos en ofrecer una experiencia de venta sin complicaciones, asegurando pago inmediato, respaldo legal completo y libre de trámites innecesarios. Nuestro compromiso es sacarte de cualquier preocupación para que puedas vender tu auto con total seguridad y tranquilidad.
+                </p>
+            </div>
+
+            <!-- Columna Derecha: Video con marco geométrico -->
+            <div class="about-media-wrapper">
+                <!-- Fondo en diagonal dorado/borgoña -->
+                <div class="about-shape-bg"></div>
+                
+                <div class="video-container" id="videoWrapper">
+                    <video id="promo-video" autoplay loop muted playsinline>
+                        <source src="img/carretera.mp4" type="video/mp4">
+                        Tu navegador no soporta la reproducción de video.
+                    </video>
+
+                    <!-- Botón Play flotante personalizado -->
+                    <button class="custom-play-btn" aria-label="Reproducir">
+                        <svg viewBox="0 0 24 24" width="28" height="28" fill="white">
+                            <path d="M8 5v14l11-7z"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Estadísticas / Números -->
+        <div class="stats-section">
+            <div class="stat-item">
+                <div class="stat-number">2010</div>
+                <span class="stat-label">FUNDADO</span>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">1500</div>
+                <span class="stat-label">AUTOS COMPRADOS</span>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">1000</div>
+                <span class="stat-label">CLIENTES</span>
+            </div>
+        </div>
+
+        <!-- Borde decorativo inferior en ángulo -->
+        <div class="bottom-accent-bar"></div>
+    </section>
+
+    <!-- Sección: ¿Qué Compramos? -->
+    <section class="what-we-buy-section">
+        <!-- Franjas geométricas diagonales de fondo -->
+        <div class="bg-slash slash-left"></div>
+        <div class="bg-slash slash-right"></div>
+
+        <div class="buy-container">
+            <!-- Columna Izquierda: Imagen de Vehículos -->
+            <div class="buy-media">
+                <img src="img/grupo-vehiculos.webp" alt="Vehículos que compramos" class="vehicles-img">
+            </div>
+
+            <!-- Columna Derecha: Contenido y Lista -->
+            <div class="buy-content">
+                <span class="buy-tag">AUTOMOTRIZ RANHET</span>
+                <h2 class="buy-title">¿QUÉ COMPRAMOS?</h2>
+                <p class="buy-description">
+                    En Automotriz Ranhet compramos una amplia variedad de vehículos y maquinaria, incluso aquellos que son difíciles de vender por la vía tradicional:
+                </p>
+                
+                <ul class="buy-list">
+                    <li><span class="list-icon">►</span> Autos, camionetas, jeeps, SUV y camiones.</li>
+                    <li><span class="list-icon">►</span> Vehículos con deudas, prenda, multas, TAG impago o embargo.</li>
+                    <li><span class="list-icon">►</span> Maquinaria y equipos de trabajo o construcción.</li>
+                </ul>
+
+                <a href="https://wa.me/+56927185488?text=Hola,%20quiero%20vender%20un%20veh%C3%ADculo" 
+                   class="btn-outline" 
+                   target="_blank" 
+                   rel="noopener noreferrer">
+                   VENDE EL TUYO AHORA MISMO
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección: Testimonio y Empresas / Confianza -->
+    <section class="testimonial-section">
+        <div class="testimonial-container">
+            <!-- Columna Izquierda: Testimonio -->
+            <div class="testimonial-content">
+                <span class="testimonial-tag">CONFIANZA RESPALDADA POR NUESTROS CLIENTES</span>
+                
+                <div class="quote-box">
+                    <span class="quote-mark">”</span>
+                    <p class="testimonial-text">
+                        TENÍA UN AUTO CON DEUDAS Y TAG ATRASADO, Y NADIE QUERÍA COMPRARLO. EN AUTOMOTRIZ RANHET SE ENCARGARON DE TODO Y EN SOLO UN PAR DE HORAS YA TENÍA MI DINERO. RÁPIDOS, CLAROS Y TOTALMENTE CONFIABLES.
+                    </p>
+                </div>
+
+                <span class="testimonial-author">MANUEL PEREZ</span>
+            </div>
+
+            <!-- Columna Derecha: Foto de cliente con forma diagonal -->
+            <div class="testimonial-media">
+                <div class="testimonial-shape-bg"></div>
+                <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=600&auto=format&fit=crop" alt="Cliente Manuel Pérez" class="client-img">
+            </div>
+        </div>
+
+        <!-- Fila de Logos / Empresas -->
+        <div class="brands-container">
+            <span class="brand-item">Coca-Cola</span>
+            <span class="brand-item">abastible</span>
+            <span class="brand-item">gtd</span>
+            <span class="brand-item">Pullman Tur</span>
+            <span class="brand-item">CCU</span>
+        </div>
+    </section>
+
+    <!-- Sección: Nuestro Equipo -->
+    <section class="team-section">
+        <div class="team-container">
+            
+            <!-- Columna Izquierda: Imagen sobre bloque diagonal -->
+            <div class="team-media">
+                <!-- Bloque geométrico de fondo en diagonal -->
+                <div class="team-shape-bg"></div>
+                <!-- Foto de la persona -->
+                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=600&auto=format&fit=crop" alt="Bryan C. - Nuestro Equipo" class="team-img">
+            </div>
+
+            <!-- Columna Derecha: Información -->
+            <div class="team-content">
+                <span class="team-tag">NUESTRO EQUIPO</span>
+                <h2 class="team-title">BRYAN C.</h2>
+                <p class="team-description">
+                    Bryan es el encargado de la compra de vehículos en Automotriz Ranhet y cuenta con una amplia experiencia evaluando autos en todo tipo de condiciones. Es quien acompaña a nuestros clientes durante todo el proceso, resolviendo dudas y entregando una atención clara y transparente. Gracias a su profesionalismo y cercanía, ha ganado la confianza de cientos de clientes, quienes valoran su rapidez, seriedad y compromiso al momento de vender su vehículo.
+                </p>
+                <!-- Firma manuscrita decorativa -->
+                <div class="team-signature">Bryan</div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SECCIÓN FLOTAS EMPRESARIALES -->
+    <section class="fleet-section">
+        <div class="fleet-overlay"></div>
+        <div class="fleet-content">
+            <h2 class="fleet-title">¿TU EMPRESA NECESITA VENDER VARIOS VEHÍCULOS?</h2>
+            <p class="fleet-description">
+                Compramos flotas de vehículos de forma rápida, segura y con pago inmediato.
+            </p>
+            <a href="https://wa.me/+56927185488?text=Hola,%20somos%20una%20empresa%20y%20nos%20interesa%20vender%20una%20flota%20de%20veh%C3%ADculos" 
+               class="btn-fleet" 
+               target="_blank" 
+               rel="noopener noreferrer">
+               CONTÁCTANOS
+            </a>
+        </div>
+    </section>
+<!-- SECCIÓN DE CONTACTO CON FORMULARIO -->
+<section class="contact-section" id="contacto">
+    <div class="contact-container">
+        <div class="contact-header">
+            <span class="contact-tag">AUTOMOTRIZ RANHET</span>
+            <h2 class="contact-title">¿TIENES DUDAS? ESCRÍBENOS</h2>
+            <p class="contact-subtitle">Déjanos tus datos y te responderemos a la brevedad.</p>
+        </div>
+
+        <form class="contact-form" action="#" method="POST">
+            <div class="form-group">
+                <input type="text" name="nombre" placeholder="Nombre completo" required>
+            </div>
+            <div class="form-group">
+                <input type="email" name="correo" placeholder="Correo electrónico" required>
+            </div>
+            <div class="form-group">
+                <input type="tel" name="telefono" placeholder="Teléfono / WhatsApp" required>
+            </div>
+            <div class="form-group">
+                <textarea name="mensaje" rows="4" placeholder="¿En qué te podemos ayudar? (Ej: Modelo de auto, año, precio estimado...)" required></textarea>
+            </div>
+            <button type="submit" class="btn-submit">ENVIAR MENSAJE</button>
+        </form>
+    </div>
+</section>
+    <!-- PIE DE PÁGINA / FOOTER -->
+    <footer class="main-footer">
+        <div class="footer-container">
+            
+            <!-- Columna 1: Marca, Redes y Descripción -->
+            <div class="footer-brand">
+                <div class="footer-socials">
+                    <a href="https://www.instagram.com/usuario_del_cliente" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                        <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                        </svg>
+                    </a>
+                    <a href="https://www.tiktok.com/@usuario_del_cliente" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
+                        <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                            <path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.28-2.85 1.19-5.69 3.68-7.05 1.26-.7 2.72-.99 4.14-.84v4.06c-.84-.13-1.71.07-2.43.51-.83.5-1.38 1.37-1.47 2.33-.13 1.25.47 2.48 1.51 3.12 1.05.65 2.42.61 3.42-.1.82-.57 1.33-1.52 1.36-2.52.01-4.27.01-8.53.01-12.8 0-.01 0-.02 0-.03z"/>
+                        </svg>
+                    </a>
+                </div>
+
+                <a href="#" class="logo footer-logo">
+                    <span class="logo-main">AUTOMOTRIZ</span>
+                    <span class="logo-sub">RANHET</span>
+                </a>
+
+                <p class="footer-description">
+                    Agradecemos tu confianza en Automotriz Ranhet. Trabajamos cada día para entregar soluciones simples, rápidas y efectivas en la compra de tu vehículo.
+                </p>
+            </div>
+
+            <!-- Columna 2: Contacto -->
+            <div class="footer-contact">
+                <h3 class="footer-title">CONTACTO</h3>
+                <p class="contact-item">+56 9 1234 5678</p>
+                <p class="contact-item">contacto@automotrizranhet.cl</p>
+            </div>
+
+        </div>
+
+        <!-- Copyright e Historial de Créditos Inferior -->
+        <div class="footer-bottom">
+            <p>Copyright © 2026 automotrizranhet.cl | Todos los derechos reservados</p>
+            <p class="credits">
+                Sitio web diseñado y desarrollado por 
+                <a href="https://www.instagram.com/fcarisweb/" target="_blank" rel="noopener noreferrer">CarisWeb</a>
+            </p>
+        </div>
+    </footer>
+
+    <!-- BOTÓN FLOTANTE DE WHATSAPP -->
+    <a href="https://wa.me/+56927185488?text=Hola,%20me%20gustar%C3%ADa%20obtener%20m%C3%A1s%20informaci%C3%B3n" 
+       class="whatsapp-float" 
+       target="_blank" 
+       rel="noopener noreferrer" 
+       aria-label="Contactar por WhatsApp">
+        <svg viewBox="0 0 32 32" width="32" height="32" fill="currentColor">
+            <path d="M16 0c-8.837 0-16 7.163-16 16 0 2.825 0.737 5.607 2.137 8.048l-2.137 7.952 8.135-2.135c2.372 1.3 5.060 1.987 7.865 1.987 8.837 0 16-7.163 16-16s-7.163-16-16-16zM16 29.333c-2.453 0-4.853-0.643-6.96-1.864l-0.5-0.291-5.16 1.353 1.377-5.127-0.319-0.507c-1.341-2.131-2.049-4.596-2.049-7.119 0-7.352 5.981-13.333 13.333-13.333s13.333 5.981 13.333 13.333c0 7.352-5.98 13.333-13.333 13.333zM22.504 19.349c-0.356-0.178-2.105-1.039-2.431-1.157s-0.563-0.178-0.801 0.178c-0.237 0.356-0.92 1.157-1.128 1.395s-0.415 0.267-0.771 0.089c-0.356-0.178-1.502-0.554-2.862-1.767-1.059-0.944-1.774-2.11-1.982-2.466s-0.022-0.548 0.156-0.725c0.161-0.16 0.356-0.415 0.534-0.623s0.237-0.356 0.356-0.593c0.119-0.237 0.059-0.445-0.030-0.623s-0.801-1.93-1.097-2.641c-0.288-0.692-0.58-0.598-0.801-0.609s-0.445-0.011-0.683-0.011c-0.237 0-0.623 0.089-0.949 0.445s-1.246 1.217-1.246 2.967 1.276 3.441 1.454 3.678c0.178 0.237 2.512 3.837 6.085 5.38 0.85 0.367 1.513 0.586 2.03 0.75 0.853 0.271 1.63 0.233 2.243 0.141 0.685-0.102 2.105-0.861 2.402-1.691s0.297-1.543 0.208-1.691c-0.089-0.149-0.326-0.237-0.682-0.415z"></path>
+        </svg>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
